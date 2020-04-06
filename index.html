@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article transition page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-header" id="main-header">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="main-body" id="main-body">
+            <form action="" method="" class="main-form">
+                <div class="form-control">
+                    <input class="username" type="text" name="user" placeholder="Enter Your Name" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Enter Your Name'">
+                    <i class="fas fa-user control-icon fa-fw"></i>
+                    <span class="important">*</span>
+                    <p class="error" id="error-1"><strong>Error:</strong> <small>please Enter Your Name</small> </p>
+                    <p class="error" id="error-2"><strong>Error:</strong> <small>Username must be larger than <strong>3</strong> characters</small> </p>
+                </div>
+                <div class="form-control">
+                    <input class="mail" type="email" name="mail" placeholder="Enter Your Email" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Enter Your Email'">
+                    <i class="fas fa-envelope control-icon fa-fw"></i>
+                    <span class="important">*</span>
+                    <p class="error" id="error-1"><strong>Error:</strong> <small>please Enter Your Email</small> </p>
+                </div>
+                <div class="form-control">
+                    <input class="cell" type="text" name="cell" placeholder="Enter Your Number" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Enter Your Number'">
+                    <i class="fas fa-mobile-alt control-icon fa-fw"></i>
+
+                </div>
+                <div class="form-control">
+                    <textarea class="message" name="message" cols="30" rows="10" placeholder="Enter Your Message" onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Enter Your Message'"></textarea>
+                    <p class="error" id="error-1"><strong>Error:</strong> <small>please Enter Your Message</small> </p>
+                    <p class="error" id="error-2"><strong>Error:</strong> <small>Your Message must be larger than <strong>9</strong> characters</small> </p>
+                </div>
+                <input type="submit" class="btn-submit">
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
